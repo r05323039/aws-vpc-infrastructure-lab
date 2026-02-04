@@ -8,6 +8,7 @@ target/
 .mvn/wrapper/
 /build/
 
+
 ### VS Code ###
 .vscode/
 *.code-workspace
@@ -29,3 +30,6 @@ node_modules/
 ### OS & Temporary Files ###
 .DS_Store
 Thumbs.db
+
+*.iml
+*.xml
