@@ -1,35 +1,22 @@
-### Java & SpringBoot ###
-*.class
-*.log
-*.jar
-*.war
-*.ear
-target/
-.mvn/wrapper/
-/build/
-
-
-### VS Code ###
-.vscode/
-*.code-workspace
-.history/
-
-### AWS & Credentials ###
-.aws/
-credentials
-*.pem
-*.pub
-
-### DevOps & Infrastructure ###
+# --- Terraform 執行產生的暫存檔 ---
 .terraform/
-*.tfstate*
-.env
-.env.*
-node_modules/
+.terraform.lock.hcl
 
-### OS & Temporary Files ###
+# --- 包含機密資訊的 State 檔案 ---
+*.tfstate
+*.tfstate.*
+
+# --- 變數定義檔 (如果裡面有寫密碼或 API Key) ---
+*.tfvars
+*.tfvars.json
+
+# --- SSH 私鑰與敏感憑證 ---
+*.pem
+*.key
+
+# --- 系統與編輯器暫存檔 ---
 .DS_Store
-Thumbs.db
+.idea/
+.vscode/
 
-*.iml
-*.xml
+.env
