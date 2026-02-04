@@ -1,0 +1,31 @@
+### Java & SpringBoot ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+target/
+.mvn/wrapper/
+/build/
+
+### VS Code ###
+.vscode/
+*.code-workspace
+.history/
+
+### AWS & Credentials ###
+.aws/
+credentials
+*.pem
+*.pub
+
+### DevOps & Infrastructure ###
+.terraform/
+*.tfstate*
+.env
+.env.*
+node_modules/
+
+### OS & Temporary Files ###
+.DS_Store
+Thumbs.db
